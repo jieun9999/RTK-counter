@@ -2,7 +2,7 @@ import React from "react";
 //리덕스 훅
 import { useSelector, useDispatch } from "react-redux"; 
 // createSlice에서 추출한 action
-import {increment, decrement, incrementByAmount } from './counterSlice';
+import {increment, decrement, incrementByAmount} from './counterSlice';
 import { useState } from "react";
 
 export function Counter(){
